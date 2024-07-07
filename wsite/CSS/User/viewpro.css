@@ -1,0 +1,20 @@
+*{
+padding: 0;
+margin: 0;
+}
+.c{
+padding-top: 48px;
+}
+section{
+margin:48px 0 ;
+}
+.image{
+height: 250px;
+}
+body{
+/*background-image: url("../../imageproduct/backbody.png");!important;*/
+background-repeat: no-repeat;!important;
+background-size: cover;!important;
+background-attachment: fixed;
+}
+

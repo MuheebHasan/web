@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../CSS/Sign/signup.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>signup</title>
+</head>
+<body>
+<div class="container">
+    <div class="signup">
+        <form action="../Users/signup.php" method="POST">
+            <h2>Sign UP</h2>
+            <div class="Account">
+                <div class="input-group">
+                    <div class="icon">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div>
+                        <h5>User Name</h5>
+                        <input type="text" class="input" name="username" >
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="icon">
+                        <i class="material-icons" style="font-size:18px;">email</i>
+                    </div>
+                    <div>
+                        <h5>Email Address</h5>
+                        <input type="email" class="input" name="email">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="icon">
+                        <i  class="material-icons" style="font-size:18px;">lock</i>
+                    </div>
+                    <div>
+                        <h5>Password</h5>
+                        <input type="password" class="input" name="password">
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="icon">
+                        <i  class="material-icons" style="font-size:18px;">lock</i>
+                    </div>
+                    <div>
+                        <h5>Confirm Password</h5>
+                        <input type="password" class="input" name="con_password">
+                    </div>
+                </div>
+            </div>
+            <button class="btn"  name="btn_signup">Sign UP</button>
+        </form>
+    </div>
+</div>
+<script src="../../js/app.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+.title h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0;
+}
+li{
+    border: 0;
+}
+.btn_list{
+    display: flex;
+    width: 100%;
+    justify-content: end !important;
+}
+.btn{
+    width: 50%;
+}
+.row{
+    margin: 40px;
+}

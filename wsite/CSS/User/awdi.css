@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*css3*/
+}
+
+.container{
+    width: 90%;
+
+    margin: auto;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.clear{
+    clear:both;
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: montserrat,sans-serif;
+}
+
+button{
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: 45%;
+    float: left;
+}
+.logo a i{
+
+    display: inline-block;
+    color: black;
+    float: left;
+}
+
+.logo a i{
+    display: block;
+    padding: 1% 0;
+}
+
+.header-titel h2{
+    width: 55%;
+    text-align: left;
+    display: inline-block;
+    color: black;
+    float: left;
+}
+.header-titel h2{
+    display: block;
+    font-size: 30px;
+    padding:1% 0;
+}
+.pd-y{
+    padding: 120px 0;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.section-header .section-title{
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.section-header .line{
+    display: block;
+    height: 5px;
+    width: 120px;
+    margin: 0 auto 70px auto;
+    background-color: #ec0a0a;
+    margin: auto;
+}
+/*header*/
+.header{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+    background: #dab3b3;
+
+}
+
+
+
+/*search*/
+
+.search{
+    height: 100vh;
+    background-image: url(../img/homeAudi.jpg);
+    background-size:cover ;
+    position: relative;
+}
+.search .container{
+
+    width: 80%;
+    height: 400px;
+    margin: auto;
+
+    position: relative;
+    text-align: center;
+
+}
+.contint p{
+    color: red;
+    padding-bottom:5px ;
+}
+.contint h1{
+    margin-top: 20px;
+    color: white;
+}
+.contint .text{
+    margin: 70px 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 350px;
+
+
+}
+.contint .but{
+    margin: 70px 0;
+    border-radius: 5px;
+    height: 20px;
+    width: 70px;
+    height: 30px;
+
+    color:#fff ;
+    background: #6b2c2c;
+
+
+}
+.container .but:hover {
+    background-color: #857d7d;
+    color: #6b2c2c;
+
+}
+.container .but:hover i{
+    color: #6b2c2c;
+
+}
+
+
+/*portfolio section*/
+
+.portfolio{
+    background: #fff;
+}
+.portfolio-content{
+    overflow: hidden;
+}
+.portfolio-item{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 20px;
+}
+.portfolio-item .layer-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5) ;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+}
+.portfolio-item:hover .layer-content{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+.portfolio-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-item.mg{
+    margin: 0 2%;
+}
+.layer-content .layer-info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    text-align: center;
+}
+.layer-content .category{
+    color: #f33737;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom:5px ;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay:0.2s ;
+
+}
+
+.layer-content-titel{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom:10px;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay:0.3s ;
+
+
+}
+
+.layer-content a{
+
+
+    color: #fff;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay:1s ;
+    font-size: 30px;
+
+
+}
+
+.layer-content a button{
+    display: inline-block;
+    width: 90px;
+    height: 35px;
+    line-height: 40px;
+    background-color: #f33737;
+    color: white;
+    border: 0;
+}
+.portfolio-item:hover .layer-content-titel,
+.portfolio-item:hover .layer-content a,
+.portfolio-item:hover .layer-content .category{
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+}
+.layer-content a button:hover{
+    background-color: white;
+    color: #f33737;
+
+}

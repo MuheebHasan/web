@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    font-family: montserrat,sans-serif;
+}
+.container-fluid{
+    padding: 0;
+}
+button{
+    font-family: inherit;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    width: auto;
+    height: 50px;
+}
+#navbarNavDropdown > .navbar-nav > li > a.active::after,
+#navbarNavDropdown> .navbar-nav > li > a::after{
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 2px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+}
+#navbarNavDropdown > .designnav > li > a.active::after{
+
+}
+#navbarNavDropdown > .designnav > li > a::after{
+    width: 0;
+}
+#navbarNavDropdown > .designnav > li > a:hover::after{
+    width: 100%;
+}
+#navbarNavDropdown > .designnav > li{
+    margin-right: 50px;
+}
+.star{
+
+    padding: 0;
+
+}
+
+.home-content{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-content .title{
+    color: #fff;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+
+}
+.home-content .home-desc{
+    margin: 20px 0;
+    color: #fff;
+    letter-spacing:2px;
+    line-height: 1.5;
+}
+.click{
+    color: #fff;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28, 244, 239, 239%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.car_type{
+    margin-top:40px ;
+}
+.row .line {
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: #6195ff;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card-text{
+    top: -100%;
+    color: #fff;
+    text-align: center;
+    transition:top 0.5s,opacity 0.5s;
+    background-color: #222222;
+    opacity: 0;
+    transition-delay:0.1s ;
+}
+.card:hover .card-text{
+    top: 0;
+    opacity: 0.8;
+}
+.tt{
+    margin: 10% auto;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 1;
+}
+.fa{
+    color: #eeeeee;
+    padding: 2px;
+}
+.btn-type{
+    background-color: #6195ff;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+}
+.btn-type :hover{
+    cursor: pointer;
+}
+.btn-type:active{
+    background-color: #4e84f3;
+}
+.row {
+    margin: 20px 0;
+}
+.col-lg-4,.col-sm-12{
+    margin: 20px 0;
+}

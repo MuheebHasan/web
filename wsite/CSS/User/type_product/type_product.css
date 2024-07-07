@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.home-content{
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.home-content .title{
+    color: #fff;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+
+}
+.home-content .home-desc{
+    margin: 20px 0;
+    color: #fff;
+    letter-spacing:2px;
+    line-height: 1.5;
+}
+
+.car_type{
+    margin-top:40px ;
+}
+.row .line {
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: #6195ff;
+
+    margin-bottom: 30px;
+
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+img{
+    background-color: #222222;
+    opacity: 0.4;
+}
+.card-text{
+    color: #fff;
+    text-align: center;
+    top: 0;
+
+
+}
+.card:active img{
+    opacity: 0.8;
+}
+.tt{
+
+    margin:15% auto;
+    color: #eeeeee;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.row {
+    margin: 20px 0;
+}
+.col-lg-4,.col-sm-12{
+    margin: 20px 0;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/empty-floor-with-modern-business-office-building_1127-2839.jpg?w=1060&t=st=1684872284~exp=1684872884~hmac=f96173efcb59fdd42fb79ef155e9470aebd13023034cf1e6eb9abacbc072a57a");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
